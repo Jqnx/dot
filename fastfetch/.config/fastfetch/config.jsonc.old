@@ -1,0 +1,112 @@
+// Inspired by Catnap
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "~/Pictures/dawg.png",
+    "width": 36,
+    "height": 14,
+    "padding": {
+      "top": 0,
+      "left": 2,
+      "right": 4,
+    },
+    "color": {
+      "1": "green",
+      "2": "magenta"
+    }
+  },
+  "display": {
+    "separator": " ",
+    "size": {
+      "maxPrefix": "MB",
+      "ndigits": 0,
+    },
+  },
+  "modules": [
+    {
+      "key": "╭────────────╮",
+      "type": "custom",
+    },
+    {
+      "key": "│ {#31}  {#39}user    {#keys}│",
+      "type": "title",
+      "format": "{user-name}",
+      "outputColor": "red",
+    },
+    {
+      "key": "│ {#33}󰻀  {#39}hname   {#keys}│",
+      "type": "title",
+      "format": "{host-name}",
+      "outputColor": "yellow",
+    },
+    {
+      "key": "│ {#33}󰅐  {#39}uptime  {#keys}│",
+      "type": "uptime",
+      "format": "{days} days, {hours} hours, {minutes} min",
+      "outputColor": "green",
+    },
+    {
+      "key": "│ {#32}{icon} {#39} distro  {#keys}│",
+      "type": "os",
+      "outputColor": "cyan",
+      "format": "{3}",
+    },
+    {
+      "key": "│ {#36}󰌢  {#39}kernel  {#keys}│",
+      "type": "kernel",
+      "outputColor": "magenta",
+      "format": "{2}",
+    },
+    {
+      "key": "│ {#35}󰌢  {#39}wm      {#keys}│",
+      "type": "wm",
+      "outputColor": "blue",
+      "format": "{1}",
+    },
+    {
+      "key": "│ {#34}  {#39}shell   {#keys}│",
+      "type": "shell",
+      "outputColor": "red",
+      "format": "{3}",
+    },
+    {
+      "key": "│ {#31}󰏖  {#39}pkgs    {#keys}│",
+      "type": "packages",
+      "outputColor": "yellow",
+      "format": "{1}",
+    },
+    {
+      "key": "│ {#33}󰉉  {#39}disk    {#keys}│",
+      "type": "disk",
+      "folders": "/",
+      "outputColor": "green",
+      "format": "{1} | {2}",
+    },
+    {
+      "key": "│ {#32}󰍛  {#39}memory  {#keys}│",
+      "type": "memory",
+      "outputColor": "cyan",
+      "format": "{1} | {2}",
+    },
+    {
+      "key": "│ {#36}󰝚  {#39}media   {#keys}│",
+      "type": "media",
+      "outputColor": "magenta",
+      "format": "{3} - {1}",
+    },
+    {
+      "key": "├────────────┤",
+      "type": "custom",
+    },
+    {
+      "key": "│ {#39}  colors  {#keys}│",
+      "type": "colors",
+      "symbol": "circle",
+    },
+    {
+      "key": "╰────────────╯",
+      "type": "custom",
+    },
+  ],
+}
