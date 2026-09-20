@@ -6,7 +6,7 @@ hl.monitor({
 	output = "eDP-1",
 	mode = "preferred",
 	position = "auto",
-	scale = 1,
+	scale = 2,
 })
 
 -- External display mirrors the laptop panel
