@@ -1,0 +1,27 @@
+providers:
+  webSearchOrder:
+    []
+  memoryModel: online
+modelRoles:
+  default: opencode-go/deepseek-v4.1-flash:high
+symbolPreset: nerd
+setupVersion: 2
+theme:
+  dark: noctalia
+  light: noctalia
+composer:
+  shape: pi
+  tokenRate: true
+statusLine:
+  preset: default
+  sessionAccent: true
+tui:
+  textSizing: false
+error:
+  notify: "off"
+compaction:
+  experimentalContextManagement: false
+memory:
+  backend: local
+vault:
+  enabled: true
