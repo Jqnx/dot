@@ -1,0 +1,19 @@
+[user]
+	email = jan.derpingguys@hotmail.com
+  name = Jan Van Look
+[init]
+  defaultBranch = main
+[core]
+  editor = nvim
+[submodule]
+  recurse = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[pull]
+	rebase = false
