@@ -55,7 +55,7 @@ color = "tertiary"
 
 [widget.control-center]
 color = "tertiary"
-custom_image = "./CachyOS.svg"
+custom_image = "~/.config/noctalia/CachyOS.svg"
 custom_image_colorize = true
 glyph = "home"
 
