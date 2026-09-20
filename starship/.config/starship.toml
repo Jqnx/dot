@@ -30,7 +30,7 @@ ahead = '[ ](bold purple) '
 format = '([$all_status$ahead_behind]($style))'
 
 [[battery.display]]
-threshold = 50
+threshold = 25
 
 [lua]
 detect_folders = []
@@ -182,40 +182,40 @@ symbol = "🅢 "
 
 [palettes.noctalia]
 # Standard colors
-blue      = "#b9b479"
+blue      = "#ad859f"
 red       = "#fd4663"
-green     = "#c18a8e"
-yellow    = "#b99579"
-cyan      = "#d3bdab"
-magenta   = "#d3acaf"
-white     = "#f3f2f2"
-black     = "#302122"
+green     = "#9e8bc1"
+yellow    = "#ab81b1"
+cyan      = "#ccafd0"
+magenta   = "#baacd3"
+white     = "#f2f2f3"
+black     = "#28252c"
 
 # Extended palette (Catppuccin-compatible names)
-rosewater = "#b99579"
+rosewater = "#ab81b1"
 flamingo  = "#fd4663"
-pink      = "#d3acaf"
-mauve     = "#d3acaf"
+pink      = "#baacd3"
+mauve     = "#baacd3"
 maroon    = "#fd4663"
-peach     = "#b99579"
-teal      = "#d3bdab"
-sky       = "#d3bdab"
-sapphire  = "#b9b479"
-lavender  = "#d3acaf"
+peach     = "#ab81b1"
+teal      = "#ccafd0"
+sky       = "#ccafd0"
+sapphire  = "#ad859f"
+lavender  = "#baacd3"
 
 # Text shades
-text      = "#f3f2f2"
-subtext1  = "#f3f2f2"
-subtext0  = "#746364"
+text      = "#f2f2f3"
+subtext1  = "#f2f2f3"
+subtext0  = "#6a6575"
 
 # Surface shades
-overlay2  = "#746364"
-overlay1  = "#746364"
-overlay0  = "#302122"
-surface2  = "#302122"
-surface1  = "#302122"
-surface0  = "#231a1a"
-base      = "#231a1a"
-mantle    = "#231a1a"
-crust     = "#231a1a"
+overlay2  = "#6a6575"
+overlay1  = "#6a6575"
+overlay0  = "#28252c"
+surface2  = "#28252c"
+surface1  = "#28252c"
+surface0  = "#1e1c21"
+base      = "#1e1c21"
+mantle    = "#1e1c21"
+crust     = "#1e1c21"
 # <<< NOCTALIA STARSHIP PALETTE <<<
