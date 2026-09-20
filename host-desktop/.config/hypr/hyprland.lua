@@ -11,7 +11,6 @@ require("decoration")
 require("animation")
 require("keybinds")
 require("env")
-require("extensions")
 
 -----------------------
 ----- PERMISSIONS -----

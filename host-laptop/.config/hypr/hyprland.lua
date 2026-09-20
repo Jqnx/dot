@@ -11,7 +11,6 @@ require("decoration")
 require("animation")
 require("keybinds")
 require("env")
-require("extensions")
 
 -----------------------
 ----- PERMISSIONS -----
@@ -93,7 +92,6 @@ hl.window_rule({
 })
 
 require("windowrule")
-
 
 -- For Noctalia Color templates
 require("noctalia").apply_theme()
