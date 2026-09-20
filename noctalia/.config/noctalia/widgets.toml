@@ -1,0 +1,103 @@
+[widget.battery]
+color = "tertiary"
+
+[widget.bluetooth]
+color = "tertiary"
+
+[widget.c1]
+color = "primary"
+font_weight = 100
+interactive = false
+scale = 1.3
+text = "⌞"
+type = "text"
+
+[widget.c2]
+color = "primary"
+font_weight = 100
+interactive = false
+scale = 1.3
+text = "⌝"
+type = "text"
+
+[widget.c3]
+color = "primary"
+font_weight = 300
+interactive = false
+scale = 1.5
+text = "["
+type = "text"
+
+[widget.c4]
+color = "primary"
+font_weight = 300
+interactive = false
+scale = 1.5
+text = "]"
+type = "text"
+
+[widget.c5]
+color = "primary"
+interactive = false
+scale = 1.3
+text = "⌜"
+type = "text"
+
+[widget.c6]
+color = "primary"
+interactive = false
+scale = 1.3
+text = "⌟"
+type = "text"
+
+[widget.clock]
+color = "tertiary"
+
+[widget.control-center]
+color = "tertiary"
+custom_image = "./CachyOS.svg"
+custom_image_colorize = true
+glyph = "home"
+
+[widget.date]
+color = "tertiary"
+
+[widget.divider]
+color = "outline"
+interactive = false
+scale = 1.3
+text = "/"
+type = "text"
+
+[widget.media]
+artist_first = true
+color = "secondary"
+hide_album_art = true
+title_scroll = "on_hover"
+
+[widget.network]
+color = "tertiary"
+show_label = false
+
+[widget.notifications]
+color = "tertiary"
+
+[widget.session]
+enabled = false
+
+[widget.sysmon]
+color = "tertiary"
+visualization = "none"
+
+[widget.tray]
+color = "tertiary"
+drawer = true
+hide_passive = false
+
+[widget.volume]
+color = "tertiary"
+
+[widget.workspaces]
+empty_color = "tertiary"
+occupied_color = "tertiary"
+style = "minimal"

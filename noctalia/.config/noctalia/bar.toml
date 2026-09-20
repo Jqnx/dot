@@ -1,0 +1,29 @@
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    background_opacity = 0.79999998211860657
+    capsule_radius = 0
+    center = [ "c3", "clock", "divider", "date", "c4" ]
+    concave_edge_corners = false
+    end = [
+        "c5",
+        "tray",
+        "divider",
+        "network",
+        "bluetooth",
+        "divider",
+        "volume",
+        "divider",
+        "battery",
+        "sysmon",
+        "divider",
+        "notifications",
+        "divider",
+        "control-center",
+        "c6"
+    ]
+    margin_ends = 0
+    radius = 0
+    start = [ "c1", "workspaces", "divider", "media", "c2" ]
+    thickness = 30

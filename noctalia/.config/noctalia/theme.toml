@@ -1,0 +1,21 @@
+[theme]
+community_palette = "Oxocarbon"
+mode = "dark"
+source = "wallpaper"
+wallpaper_scheme = "soft"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "gtk3", "gtk4", "hyprland", "kcolorscheme", "kitty" ]
+    community_ids = [ "pear-desktop", "spicetify", "zed", "steam", "bat", "herdr", "lazygit" ]
+
+        [theme.templates.custom_colors]
+        blue = "#3b82f6"
+        cyan = "#06b6d4"
+        green = "#22c55e"
+        magenta = "#d946ef"
+        red = "#ef4444"
+        yellow = "#eab308"
+
+        [theme.templates.user.omp]
+        input_path = "$XDG_CONFIG_HOME/noctalia/templates/omp.json"
+        output_path = "~/.omp/agent/themes/noctalia.json"

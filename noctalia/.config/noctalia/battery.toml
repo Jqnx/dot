@@ -1,0 +1,5 @@
+[battery.device."/org/freedesktop/UPower/devices/battery_hidpp_battery_0"]
+warning_threshold = 10
+
+[battery.device."/org/freedesktop/UPower/devices/battery_hidpp_battery_3"]
+warning_threshold = 10
