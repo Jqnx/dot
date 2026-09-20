@@ -1,0 +1,29 @@
+[Default Applications]
+text/html=helium.desktop
+x-scheme-handler/http=helium.desktop
+x-scheme-handler/https=helium.desktop
+x-scheme-handler/about=helium.desktop
+x-scheme-handler/unknown=helium.desktop
+x-scheme-handler/bruno=bruno.desktop
+image/png=org.gnome.Loupe.desktop
+image/jpeg=org.gnome.Loupe.desktop
+audio/mpeg=vlc.desktop
+audio/mp4=vlc.desktop
+application/x-zerosize=org.gnome.Loupe.desktop
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop
+application/zip=org.gnome.FileRoller.desktop
+video/mp4=vlc.desktop
+video/vnd.avi=vlc.desktop
+inode/directory=org.gnome.Nautilus.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+
+[Added Associations]
+image/png=org.gnome.Loupe.desktop;
+image/jpeg=org.gnome.Loupe.desktop;
+audio/mpeg=org.gnome.Decibels.desktop;vlc.desktop;
+audio/mp4=vlc.desktop;
+application/x-zerosize=org.gnome.Loupe.desktop;
+application/zip=org.gnome.FileRoller.desktop;osu.desktop;
+video/mp4=vlc.desktop;
+video/vnd.avi=vlc.desktop;
+application/xml=helium.desktop;
