@@ -1,4 +1,11 @@
-require("layouts/desktop")
+-- This entry point is stowed from the `host-laptop` package, while the shared
+-- modules live in the Hyprland config dir (stow package `hypr`), so anchor
+-- `require` there regardless of how Hyprland was started (`--config` resolves
+-- symlinks, which would otherwise point at this package's own directory).
+local configDir = (os.getenv("XDG_CONFIG_HOME") or (os.getenv("HOME") .. "/.config")) .. "/hypr"
+package.path = configDir .. "/?.lua;" .. configDir .. "/?/init.lua;" .. package.path
+
+require("layouts/laptop")
 require("autostart")
 require("decoration")
 require("animation")
