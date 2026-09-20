@@ -94,5 +94,6 @@ hl.window_rule({
 
 require("windowrule")
 
+
 -- For Noctalia Color templates
 require("noctalia").apply_theme()
