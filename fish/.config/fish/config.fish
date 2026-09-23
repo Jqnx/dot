@@ -52,6 +52,7 @@ alias ks "kitten ssh"
 
 set fzf_directory_opts --bind "ctrl-o:execute($EDITOR {} &> /dev/tty)"
 fzf_configure_bindings --directory=\cf
+fzf_configure_bindings --history=\ch
 
 #----------------------------------
 # PATHS
