@@ -32,6 +32,14 @@ alias lt "eza --tree --git --icons --classify --group-directories-first --time-s
 alias tree "eza --tree --git --icons --classify --group-directories-first --time-style=long-iso --group --color-scale=all"
 
 alias g git
+alias gi "git init"
+alias ga "git add"
+alias gc "git commit"
+alias gs "git status -u"
+alias gl "git log"
+alias glo "git log --oneline"
+alias grs "git reset --soft"
+alias grh "git reset --hard"
 alias lg lazygit
 alias k kubectl
 command -qv nvim && alias vim nvim
