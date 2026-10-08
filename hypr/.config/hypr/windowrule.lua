@@ -156,7 +156,7 @@ hl.window_rule({ match = { class = "^([Ss]team)$" }, opacity = "0.90 0.90" })
 hl.window_rule({ match = { class = "^(steamwebhelper)$" }, opacity = "0.90 0.90" })
 
 -- Spotify
-hl.window_rule({ match = { class = "^([Ss]potify)$" }, opacity = "0.90 0.90" })
+hl.window_rule({ match = { class = "^([Ss]potifast)$" }, opacity = "0.90 0.90" })
 
 -- Archive Management
 hl.window_rule({
