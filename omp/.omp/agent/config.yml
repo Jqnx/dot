@@ -1,9 +1,7 @@
-providers:
-  webSearchOrder:
-    []
-  memoryModel: online
 modelRoles:
+  plan: opencode-go/glm-5.3:high
   default: opencode-go/deepseek-v4.1-flash:high
+  advisor: opencode-go/deepseek-v4.1-flash:high
 symbolPreset: nerd
 setupVersion: 2
 theme:
@@ -25,3 +23,8 @@ memory:
   backend: local
 vault:
   enabled: true
+dev:
+  autoqaConsent: granted
+task:
+  agentModelOverrides:
+    security-reviewer: opencode-go/glm-5.3
