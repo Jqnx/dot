@@ -108,7 +108,7 @@ hl.window_rule({
 	float = true,
 	center = true,
 	size = "monitor_w*0.69 monitor_h*0.69",
-	opacity = "0.80 0.80",
+	-- opacity = "0.8 0.8",
 })
 
 -- Loupe (ImageViewer)
