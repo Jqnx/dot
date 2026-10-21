@@ -77,7 +77,7 @@ hl.window_rule({ match = { class = "^(zen)$", title = "^(Library)$" }, float = t
 hl.window_rule({ match = { class = "^(code)$" }, opacity = "1 1" })
 
 -- Terminals
-hl.window_rule({ match = { class = "^(kitty)$" }, opacity = "1 1" })
+hl.window_rule({ match = { class = "^(kitty)$" }, opacity = "0.95" })
 hl.window_rule({ match = { class = "^(foot)$" }, opacity = "1 1" })
 
 -- Resources
@@ -284,6 +284,9 @@ hl.window_rule({
 	size = "monitor_w*0.69 monitor_h*0.69",
 })
 hl.window_rule({ match = { class = "^(VirtualBox Machine)$" }, float = true, center = true })
+
+-- Foliate (e-reader)
+hl.window_rule({ match = { class = "^(com.github.johnfactotum.Foliate)$" }, opacity = "0.97" })
 
 -- Path Of Building
 hl.window_rule({ match = { class = "^(pobfrontend)$" }, tile = true })
