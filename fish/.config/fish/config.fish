@@ -49,6 +49,7 @@ alias cat bat
 alias cl clear
 alias ff fastfetch
 alias ks "kitten ssh"
+alias install-ang-ls "npm i -D @angular/language-server"
 
 set fzf_directory_opts --bind "ctrl-o:execute($EDITOR {} &> /dev/tty)"
 fzf_configure_bindings --directory=\cf
@@ -79,7 +80,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # NodeJS
 #----------------------------------
 
-set -gx nvm_default_version latest
+set -gx nvm_default_version v24.21.0
 
 #----------------------------------
 # Starship
