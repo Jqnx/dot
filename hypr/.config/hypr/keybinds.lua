@@ -9,12 +9,7 @@ local mainMod = "SUPER"
 hl.bind(mainMod .. "+ Q", hl.dsp.window.close())
 hl.bind(mainMod .. "+ V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. "+ up", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle", layout_aware = "false" }))
-hl.bind(
-	mainMod .. "+ SHIFT + S",
-	hl.dsp.exec_cmd(
-		'grim -t ppm -g "$(slurp -d)" - | satty -f - --copy-command wl-copy --actions-on-escape="exit" --actions-on-enter="save-to-clipboard,save-to-file,exit" --disable-notifications -o "~/Pictures/Screenshots/%Y%m%d_%H%M%S.png"'
-	)
-)
+hl.bind(mainMod .. "+ SHIFT + S", hl.dsp.exec_cmd(ipc .. "screenshot-region"))
 
 -- Applications
 hl.bind(mainMod .. "+ T", hl.dsp.exec_cmd(terminal))
