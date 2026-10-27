@@ -32,5 +32,6 @@ hl.env("MOZ_ENABLE_WAYLAND", "1")
 
 -- Cursor
 -- hl.env("XCURSOR_THEME", "phinger-cursors-dark")
-hl.env("XCURSOR_THEME", "GoogleDot-Black")
+--hl.env("XCURSOR_THEME", "GoogleDot-Black")
+hl.env("XCURSOR_THEME", "Bibata-Modern-Classic")
 hl.env("XCURSOR_SIZE", "24")
