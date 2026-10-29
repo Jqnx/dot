@@ -22,6 +22,7 @@ hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 -- GDK
 hl.env("GDK_BACKEND", "wayland,x11,*")
 hl.env("GDK_SCALE", "1")
+hl.env("GDK_WAYLAND_DISABLE", "ext_background_effect_manager_v1")
 
 -- Ozone
 hl.env("OZONE_PLATFORM", "wayland")
