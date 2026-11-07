@@ -80,7 +80,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # NodeJS
 #----------------------------------
 
-set -gx nvm_default_version v24.21.0
+set -gx nvm_default_version v24.22.2
 
 #----------------------------------
 # Starship
