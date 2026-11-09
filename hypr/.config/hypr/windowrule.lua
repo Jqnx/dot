@@ -111,6 +111,15 @@ hl.window_rule({
 	opacity = "0.8 0.8",
 })
 
+-- Text Editor
+hl.window_rule({
+	match = { class = "^(org.gnome.TextEditor)$" },
+	float = true,
+	center = true,
+	size = "monitor_w*0.5 monitor_h*0.5",
+	opacity = "0.8 0.8",
+})
+
 -- Loupe (ImageViewer)
 hl.window_rule({
 	match = { class = "^(org.gnome.Loupe)$" },
