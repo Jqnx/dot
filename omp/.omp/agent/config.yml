@@ -1,9 +1,8 @@
 modelRoles:
-  plan: opencode-go/glm-5.3:high
   default: opencode-go/deepseek-v4.1-flash:high
   advisor: opencode-go/deepseek-v4.1-flash:high
 symbolPreset: nerd
-setupVersion: 2
+setupVersion: 3
 theme:
   dark: noctalia
   light: noctalia
@@ -28,3 +27,5 @@ dev:
 task:
   agentModelOverrides:
     security-reviewer: opencode-go/glm-5.3
+update:
+  auto: true
