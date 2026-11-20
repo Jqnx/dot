@@ -7,11 +7,15 @@ theme:
   dark: noctalia
   light: noctalia
 composer:
-  shape: pi
+  shape: field
   tokenRate: true
 statusLine:
-  preset: default
+  preset: compact
   sessionAccent: true
+  separator: slash
+  transparent: true
+  compactThinkingLevel: true
+  showHookStatus: true
 tui:
   textSizing: false
 error:
